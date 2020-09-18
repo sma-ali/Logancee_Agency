@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/**
+ * Reset
+ */
+@import "reset.css";
+
+/**
+ * Home
+ */
+
+  body{
+    font-family: Arial;
+  }
+
+  #app {
+    margin: 0 auto;
+    background: url("../assets/img/home_agency.jpg") no-repeat;
+    background-size: cover;
+    height: 3100px;
+  }
+
+  #app header {
+    background: url("../assets/img/roaring-lion.jpg") no-repeat;
+    background-size: cover;
+    height: 732px;
+    display: flex;
+    flex-direction: column;  
+  }
+
+  .header--nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header--logo {
+    padding: 34px 0px 0px 50px;
+  }
+
+  .header--logo h1 {
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .header--menu{
+    padding: 28px 50px 0px 0px;
+  }
+
+  .header--menu--bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+  .header--main{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+  }
+
+  .header--main--prev{
+    color: black;
+  }
+
+  .header--main--prev, .header--main--next{
+    writing-mode: tb;
+    text-orientation: upright;
+    font-weight: bolder;
+  }
+
+  .header--main--presentation{
+    width: 960px;
+    padding-left: 150px;
+  }
+
+  .header--main--presentation--welcome{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: black;
+  }
+
+  .header--main--presentation--title{
+    padding-top: 50px;
+    color: black;
+  }
+
+  .header--main--presentation--title h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  .header--main--presentation--subparagraph1{
+    padding-top: 25px;
+  }
+
+  .header--main--presentation--subparagraph1, .header--main--presentation--subparagraph2{
+    color: black;
+    opacity: 0.8;
+    font-size: 0.9rem;
+  }
+
+  .header--main--presentation--arrow{
+    transform: rotate(180deg);
+    width: 32px;
+    margin-top: 30px;
+  }
+
+  .header--points{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .header--points img{
+    width: 16px;
+  }
