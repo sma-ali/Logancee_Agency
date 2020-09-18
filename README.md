@@ -18,3 +18,8 @@ Tout ce qui n’est pas une image devra être en texte html vous devrez fixer la
 Vous devez réaliser cette intégration avec la systéme de versionning git et réaliser vos features et vos commit avec la méthode expliqué pendant le cours.
 Vous devrez réaliser un ripo github.
 A la fin de l’évaluation vous devrez envoyer votre lien github sur slack en mp à “Prof Cyril”.
+
+#### Parties effectuées
+
+HEADER
+ABOUT US
