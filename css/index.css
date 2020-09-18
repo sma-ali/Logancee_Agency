@@ -25,7 +25,8 @@
     background-size: cover;
     height: 732px;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    margin-bottom: 125px;
   }
 
   .header--nav{
@@ -120,3 +121,80 @@
   .header--points img{
     width: 16px;
   }
+
+  main{
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .main--01{
+    display: flex;
+  }
+
+  .main--01--group{
+
+  }
+
+  .main--01--title{
+    padding-left: 88px;
+    padding-top: 12px
+  }
+
+  .main--01--title h4{
+    letter-spacing: 7px;
+    padding-bottom: 14px;
+  }
+
+  .main--01--title h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+
+  .main--01--content{
+    display: flex;
+  }
+
+  .main--01--line{
+    width: 276px;
+    height: 2px;
+    background-color: black;
+    margin-left: 88px;
+    margin-top: 38px;
+  }
+
+  .main--01--text{
+    font-size: 12px;
+    opacity: 0.6;
+    padding-top: 32px;
+    margin-left: 28px;
+    line-height: 20px;
+  }
+
+  .main--01--img{
+    width: 334px;
+    height: 358px;
+    margin-right: 89px;
+  }
+
+  .main--01--number{
+    padding-left: 90px;
+    font-weight: bolder;
+    padding-top: 55px;
+  }
+
+  /*   for title padding-left: 88px;
+    padding-top: 12px;
+
+    display: flex for main 01
+
+    some like that for line     /* width: 92px; */
+    /* height: 3px; */
+    /* color: black; */
+    /* background: currentColor; */
+    /* padding-left: 0px; */
+    /* margin-left: 84px; 
+
+    some like that for text     /* padding-left: 202px; */
+    /* padding-top: 33px; */
+    /* font-size: 0.6rem; 
+    white-space: 6px;*/
